@@ -1,4 +1,4 @@
-update=Wed 24 Feb 2016 04:28:51 PM EET
+update=10.07.2017 (пн) 15:38:40 EEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../../../KiCAD_Components
@@ -42,4 +40,5 @@ LibName10=OLIMEX_RCL
 LibName11=OLIMEX_Regulators
 LibName12=OLIMEX_Switches
 LibName13=OLIMEX_Transistors
-LibName14=EAGLE-exported/OLIMEX_IC---Exported
+[general]
+version=1

@@ -12,9 +12,8 @@ LIBS:OLIMEX_RCL
 LIBS:OLIMEX_Regulators
 LIBS:OLIMEX_Switches
 LIBS:OLIMEX_Transistors
-LIBS:OLIMEX_IC---Exported
 LIBS:ICE40-IO_Rev_A-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -92,26 +91,26 @@ Entry Wire Line
 	7900 2500 8000 2600
 Entry Wire Line
 	7900 2600 8000 2700
-Text Label 8200 1900 0    60   ~ 0
-PIO3_1A
-Text Label 8200 2000 0    60   ~ 0
-PIO3_1B
-Text Label 8200 2100 0    60   ~ 0
-PIO3_2A
-Text Label 8200 2200 0    60   ~ 0
-PIO3_2B
-Text Label 8200 2300 0    60   ~ 0
-PIO3_3A
-Text Label 8200 2400 0    60   ~ 0
-PIO3_3B
-Text Label 8200 2500 0    60   ~ 0
-PIO3_5A
-Text Label 8200 2600 0    60   ~ 0
-PIO3_5B
-Text Label 8200 2700 0    60   ~ 0
-PIO3_6A
-Text Label 8200 2800 0    60   ~ 0
-PIO3_6B
+Text Label 8100 1900 0    60   ~ 0
+GPIO_Pin<5>
+Text Label 8100 2000 0    60   ~ 0
+GPIO_Pin<7>
+Text Label 8100 2100 0    60   ~ 0
+GPIO_Pin<9>
+Text Label 8100 2200 0    60   ~ 0
+GPIO_Pin<11>
+Text Label 8100 2300 0    60   ~ 0
+GPIO_Pin<13>
+Text Label 8100 2400 0    60   ~ 0
+GPIO_Pin<15>
+Text Label 8100 2500 0    60   ~ 0
+GPIO_Pin<17>
+Text Label 8100 2600 0    60   ~ 0
+GPIO_Pin<19>
+Text Label 8100 2700 0    60   ~ 0
+GPIO_Pin<21>
+Text Label 8100 2800 0    60   ~ 0
+GPIO_Pin<23>
 Entry Wire Line
 	7900 2900 8000 3000
 Entry Wire Line
@@ -124,40 +123,40 @@ Entry Wire Line
 	11000 3100 10900 3200
 Entry Wire Line
 	11000 3200 10900 3300
-Text Label 8200 2900 0    60   ~ 0
-PIO3_7B
-Text Label 8200 3000 0    60   ~ 0
-PIO3_8A
-Text Label 8200 3100 0    60   ~ 0
-PIO3_8B
-Text Label 8200 3200 0    60   ~ 0
-PIO3_10A
-Text Label 8200 3300 0    60   ~ 0
-PIO3_10B
+Text Label 8100 2900 0    60   ~ 0
+GPIO_Pin<25>
+Text Label 8100 3000 0    60   ~ 0
+VGA_RED1
+Text Label 8100 3100 0    60   ~ 0
+VGA_RED2
+Text Label 8100 3200 0    60   ~ 0
+GPIO_Pin<31>
+Text Label 8100 3300 0    60   ~ 0
+IrDA_Tx
 Text Label 10700 3300 2    60   ~ 0
-PIO3_12A
+VGA_RED3
 Text Label 10700 3200 2    60   ~ 0
-PIO3_12B
+VGA_GREEN1
 Entry Wire Line
 	11000 3000 10900 3100
 Text Label 10700 3100 2    60   ~ 0
-PIO2_1
+VGA_GREEN2
 Text Label 10700 3000 2    60   ~ 0
-PIO2_2
+VGA_GREEN3
 Text Label 10700 2900 2    60   ~ 0
-PIO2_3
+VGA_BLUE1
 Text Label 10700 2800 2    60   ~ 0
-PIO2_4
+VGA_BLUE2
 Text Label 10700 2700 2    60   ~ 0
-PIO2_5
+VGA_BLUE3
 Text Label 10700 2600 2    60   ~ 0
-PIO2_6
+VGA_HSYNC
 Text Label 10700 2500 2    60   ~ 0
-PIO2_7
+VGA_VSYNC
 Text Label 10700 2400 2    60   ~ 0
-PIO2_8/TxD
+PS2_DATA
 Text Label 10700 2300 2    60   ~ 0
-PIO2_9/RxD
+PS2_CLK
 Entry Wire Line
 	11000 2200 10900 2300
 Entry Wire Line
@@ -174,10 +173,10 @@ Entry Wire Line
 	11000 2900 10900 3000
 Entry Wire Line
 	11000 2800 10900 2900
-Text Label 10400 2100 0    60   ~ 0
-LED1
-Text Label 10400 2200 0    60   ~ 0
-LED2
+Text Label 10700 2100 2    60   ~ 0
+IrDA_SC
+Text Label 10700 2200 2    60   ~ 0
+IrDA_Rx
 $Comp
 L GND #PWR04
 U 1 1 56BB85D9
@@ -205,12 +204,12 @@ $EndComp
 $Comp
 L GND #PWR06
 U 1 1 56CFB0D8
-P 2900 1700
-F 0 "#PWR06" H 2900 1450 50  0001 C CNN
-F 1 "GND" V 2900 1525 50  0000 C CNN
-F 2 "" H 2900 1700 60  0000 C CNN
-F 3 "" H 2900 1700 60  0000 C CNN
-	1    2900 1700
+P 3000 1700
+F 0 "#PWR06" H 3000 1450 50  0001 C CNN
+F 1 "GND" V 3000 1525 50  0000 C CNN
+F 2 "" H 3000 1700 60  0000 C CNN
+F 3 "" H 3000 1700 60  0000 C CNN
+	1    3000 1700
 	0    -1   1    0   
 $EndComp
 $Comp
@@ -255,26 +254,26 @@ Entry Wire Line
 	700  2600 800  2700
 Entry Wire Line
 	700  2700 800  2800
-Text Label 1200 1900 0    60   ~ 0
-PIO3_1A
-Text Label 1200 2000 0    60   ~ 0
-PIO3_1B
-Text Label 1200 2100 0    60   ~ 0
-PIO3_2A
-Text Label 1200 2200 0    60   ~ 0
-PIO3_2B
-Text Label 1200 2300 0    60   ~ 0
-PIO3_3A
-Text Label 1200 2400 0    60   ~ 0
-PIO3_3B
-Text Label 1200 2500 0    60   ~ 0
-PIO3_5A
-Text Label 1200 2600 0    60   ~ 0
-PIO3_5B
-Text Label 1200 2700 0    60   ~ 0
-PIO3_6A
-Text Label 1200 2800 0    60   ~ 0
-PIO3_6B
+Text Label 1000 1900 0    60   ~ 0
+GPIO_Pin<5>
+Text Label 1000 2000 0    60   ~ 0
+GPIO_Pin<7>
+Text Label 1000 2100 0    60   ~ 0
+GPIO_Pin<9>
+Text Label 1000 2200 0    60   ~ 0
+GPIO_Pin<11>
+Text Label 1000 2300 0    60   ~ 0
+GPIO_Pin<13>
+Text Label 1000 2400 0    60   ~ 0
+GPIO_Pin<15>
+Text Label 1000 2500 0    60   ~ 0
+GPIO_Pin<17>
+Text Label 1000 2600 0    60   ~ 0
+GPIO_Pin<19>
+Text Label 1000 2700 0    60   ~ 0
+GPIO_Pin<21>
+Text Label 1000 2800 0    60   ~ 0
+GPIO_Pin<23>
 Entry Wire Line
 	700  2800 800  2900
 Entry Wire Line
@@ -289,40 +288,40 @@ Entry Wire Line
 	3400 3100 3300 3200
 Entry Wire Line
 	3400 3200 3300 3300
-Text Label 1200 2900 0    60   ~ 0
-PIO3_7B
-Text Label 1200 3000 0    60   ~ 0
-PIO3_8A
-Text Label 1200 3100 0    60   ~ 0
-PIO3_8B
-Text Label 1200 3200 0    60   ~ 0
-PIO3_10A
-Text Label 1200 3300 0    60   ~ 0
-PIO3_10B
-Text Label 3100 3300 2    60   ~ 0
-PIO3_12A
-Text Label 3100 3200 2    60   ~ 0
-PIO3_12B
+Text Label 1000 2900 0    60   ~ 0
+GPIO_Pin<25>
+Text Label 1000 3000 0    60   ~ 0
+VGA_RED1
+Text Label 1000 3100 0    60   ~ 0
+VGA_RED2
+Text Label 1000 3200 0    60   ~ 0
+GPIO_Pin<31>
+Text Label 1000 3300 0    60   ~ 0
+IrDA_Tx
+Text Label 2600 3300 0    60   ~ 0
+VGA_RED3
+Text Label 2600 3200 0    60   ~ 0
+VGA_GREEN1
 Entry Wire Line
 	3400 3000 3300 3100
-Text Label 3000 3100 2    60   ~ 0
-PIO2_1
-Text Label 3000 3000 2    60   ~ 0
-PIO2_2
-Text Label 3000 2900 2    60   ~ 0
-PIO2_3
-Text Label 3000 2800 2    60   ~ 0
-PIO2_4
-Text Label 3000 2700 2    60   ~ 0
-PIO2_5
-Text Label 3000 2600 2    60   ~ 0
-PIO2_6
-Text Label 3000 2500 2    60   ~ 0
-PIO2_7
-Text Label 3000 2400 2    60   ~ 0
-PIO2_8/TxD
-Text Label 3000 2300 2    60   ~ 0
-PIO2_9/RxD
+Text Label 2600 3100 0    60   ~ 0
+VGA_GREEN2
+Text Label 2600 3000 0    60   ~ 0
+VGA_GREEN3
+Text Label 2600 2900 0    60   ~ 0
+VGA_BLUE1
+Text Label 2600 2800 0    60   ~ 0
+VGA_BLUE2
+Text Label 2600 2700 0    60   ~ 0
+VGA_BLUE3
+Text Label 2600 2600 0    60   ~ 0
+VGA_HSYNC
+Text Label 2600 2500 0    60   ~ 0
+VGA_VSYNC
+Text Label 2600 2400 0    60   ~ 0
+PS2_DATA
+Text Label 2600 2300 0    60   ~ 0
+PS2_CLK
 Entry Wire Line
 	3400 2200 3300 2300
 Entry Wire Line
@@ -339,22 +338,22 @@ Entry Wire Line
 	3400 2900 3300 3000
 Entry Wire Line
 	3400 2800 3300 2900
-Text Label 2700 2100 0    60   ~ 0
-LED1
-Text Label 2700 2200 0    60   ~ 0
-LED2
+Text Label 2600 2100 0    60   ~ 0
+IrDA_SC
+Text Label 2600 2200 0    60   ~ 0
+IrDA_Rx
 $Comp
 L GND #PWR08
 U 1 1 56CFB120
-P 2900 2000
-F 0 "#PWR08" H 2900 1750 50  0001 C CNN
-F 1 "GND" V 2900 1825 50  0000 C CNN
-F 2 "" H 2900 2000 60  0000 C CNN
-F 3 "" H 2900 2000 60  0000 C CNN
-	1    2900 2000
+P 3000 2000
+F 0 "#PWR08" H 3000 1750 50  0001 C CNN
+F 1 "GND" V 3000 1825 50  0000 C CNN
+F 2 "" H 3000 2000 60  0000 C CNN
+F 3 "" H 3000 2000 60  0000 C CNN
+	1    3000 2000
 	0    -1   1    0   
 $EndComp
-Text Label 2700 1900 0    60   ~ 0
+Text Label 2600 1900 0    60   ~ 0
 EXTCLK
 Text Notes 1300 1200 0    200  Italic 40
 Extension In
@@ -639,27 +638,27 @@ HSYNC
 Text Notes 3300 5900 0    60   ~ 0
 VSYNC
 Text Label 4100 4600 0    60   ~ 0
-PIO3_8A
+VGA_RED1
 Text Label 4100 4700 0    60   ~ 0
-PIO3_8B
+VGA_RED2
 Text Label 4100 4800 0    60   ~ 0
-PIO3_12A
+VGA_RED3
 Text Label 4100 5000 0    60   ~ 0
-PIO3_12B
+VGA_GREEN1
 Text Label 4100 5100 0    60   ~ 0
-PIO2_1
+VGA_GREEN2
 Text Label 4100 5200 0    60   ~ 0
-PIO2_2
+VGA_GREEN3
 Text Label 4100 5400 0    60   ~ 0
-PIO2_3
+VGA_BLUE1
 Text Label 4100 5500 0    60   ~ 0
-PIO2_4
+VGA_BLUE2
 Text Label 4100 5600 0    60   ~ 0
-PIO2_5
+VGA_BLUE3
 Text Label 4100 5800 0    60   ~ 0
-PIO2_6
+VGA_HSYNC
 Text Label 4100 5900 0    60   ~ 0
-PIO2_7
+VGA_VSYNC
 $Comp
 L R R18
 U 1 1 56D832AC
@@ -805,7 +804,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1700 1500 1600
 Wire Wire Line
-	2400 1700 2900 1700
+	2400 1700 3000 1700
 Wire Wire Line
 	1000 1800 1900 1800
 Wire Wire Line
@@ -872,11 +871,11 @@ Wire Wire Line
 Wire Wire Line
 	2400 2300 3300 2300
 Wire Wire Line
-	3100 2100 2400 2100
+	3200 2100 2400 2100
 Wire Wire Line
-	3100 2200 2400 2200
+	3200 2200 2400 2200
 Wire Wire Line
-	2400 2000 2900 2000
+	2400 2000 3000 2000
 Wire Wire Line
 	3100 1900 2400 1900
 Wire Bus Line
@@ -1049,9 +1048,9 @@ PS2_CLK
 Text Notes 9300 5000 0    60   ~ 0
 PS2_DATA
 Text Label 10000 5000 0    60   ~ 0
-PIO2_8/TxD
+PS2_DATA
 Text Label 10000 5400 0    60   ~ 0
-PIO2_9/RxD
+PS2_CLK
 $Comp
 L TFDU4100 IrDA1
 U 1 1 56D9CBBC
@@ -1264,7 +1263,7 @@ Wire Wire Line
 	4600 1600 4900 1600
 NoConn ~ 6600 2500
 Text Label 6000 2100 0    60   ~ 0
-LED2
+IrDA_Rx
 $Comp
 L R R4
 U 1 1 56DA7B08
@@ -1324,7 +1323,7 @@ IrDA_Tx
 Text Notes 9775 2175 0    40   ~ 0
 IrDA_Rx
 Text Label 6000 2300 0    60   ~ 0
-PIO3_10B
+IrDA_Tx
 $Comp
 L R R1
 U 1 1 56DBED65
@@ -1338,9 +1337,9 @@ F 3 "" H 5750 1600 30  0000 C CNN
 $EndComp
 Connection ~ 5400 1600
 Wire Wire Line
-	5900 1600 6300 1600
+	5900 1600 6400 1600
 Text Label 6000 1600 0    60   ~ 0
-LED1
+IrDA_SC
 Text Notes 5500 2000 0    60   ~ 0
 IrDA_SC
 Text Notes 9775 2075 0    40   ~ 0
