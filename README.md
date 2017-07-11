@@ -1,4 +1,4 @@
-#iCE40-IO
+# iCE40-IO
 
 Extension module for iCE40HX1K-EVB or iCE40HX8K-EVB.
 
