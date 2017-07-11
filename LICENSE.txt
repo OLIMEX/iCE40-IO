@@ -1,0 +1,4 @@
+The hardware design of iCE40-IO is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. 
+To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/4.0/
+
+If the license doesn't fit your project's goals, please contact us at support@olimex.com
